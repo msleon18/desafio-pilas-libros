@@ -1,16 +1,26 @@
-# React + Vite
+# Challenge 04: Pila de Libros (Stack - LIFO)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en **React** con **Vite** que implementa una estructura de datos lineal tipo **Pila (Stack)** bajo el principio **LIFO** (*Last In, First Out* - El último en entrar es el primero en salir), aplicada a la gestión de libros.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
+* **React** (Componentes funcionales y Hooks como `useState`)
+* **Vite** (Entorno de desarrollo rápido)
+* **JavaScript Moderno (ES6+)** con programación orientada a objetos para la clase `Stack`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📋 Funcionalidades
+1. **Registrar Libro (Push):** Agrega un nuevo libro en la cima de la pila con sus campos (Nombre, ISBN, Autor y Editorial).
+2. **Atender/Remover Cima (Pop):** Extrae y elimina el libro que se encuentra en la parte superior de la pila.
+3. **Visualización en tiempo real:** Muestra el listado de todos los elementos indicando claramente cuál es el **[ TOPE DE LA PILA ]** y el contador total de libros.
+4. **Validaciones:** Control de campos vacíos y alertas cuando la pila se encuentra vacía.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Instrucciones de Instalación y Ejecución local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sigue estos pasos para clonar y correr el proyecto en tu máquina local:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/TU-USUARIO/desafio-pilas-libros.git](https://github.com/TU-USUARIO/desafio-pilas-libros.git)
